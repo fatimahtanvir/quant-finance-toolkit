@@ -1,12 +1,20 @@
-# Quant Finance & Volatility Analysis Toolkit
+# Signal Analysis Toolkit
 
-This repository contains Python tools for quantitative analysis, specifically focused on risk metrics and market behavior.
+Python toolkit for time-series analysis of asset and sensor 
+signals — volatility profiling, cross-correlations, and 
+response analysis under external events.
 
-## 🚀 Features
-* **Volatility Estimation:** Computes historical, rolling, and EWMA volatility.
-* **Correlation Heatmaps:** Visualizes how different asset classes (Equities, FX, Gold, Oil) move together.
-* **Event Impact Model:** Analyzes market reactions to macro events like CPI or FOMC meetings.
+## Features
+- **Volatility Estimation:** Historical, rolling, and EWMA volatility
+- **Correlation Analysis:** Cross-signal correlation matrices and heatmaps
+- **Event Response Model:** Signal response to external macro events
 
-## 🛠️ Installation
-To run these scripts, install the dependencies:
-`pip install -r requirements.txt`
+## Stack
+Python · NumPy · SciPy · Pandas · Matplotlib
+
+## Install
+pip install -r requirements.txt
+
+## Applications
+Applicable to financial time-series and sensor data streams
+in robotics and embedded systems contexts.
